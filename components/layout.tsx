@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from 'react'
 import Head from 'next/head'
 import Navbar from './navbar'
 import Footer from './footer'
@@ -18,5 +18,5 @@ export default function Layout({ children }: LayoutProps) {
       <main>{children}</main>
       <Footer />
     </>
-  );
+  )
 }

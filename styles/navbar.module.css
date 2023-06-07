@@ -1,0 +1,10 @@
+.nav {
+  background-color: #FFD162;
+}
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+}
