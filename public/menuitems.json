@@ -1,43 +1,98 @@
 [
   {
-    "name": "Grilled Salmon",
-    "description": "Freshly grilled salmon served with roasted vegetables",
-    "price": 15.99,
-    "category": "Appetizers",
-    "ingredients": [
-      "Salmon",
-      "Vegetables",
-      "Spices"
-    ],
+    "name": "Handmade AAA Striploin Fettuccine",
+    "description": "Pan Seared & Butter Basted Striploin Steak, Handmade Fettuccine, with a Garlic, Mushroom, & Parmesan Cream Sauce",
+    "price": 24.99,
+    "category": "Handmade Pasta",
+    "ingredients": [],
     "isVegetarian": false,
     "isVegan": false,
-    "isGlutenFree": true,
+    "isGlutenFree": 0,
     "spicyLevel": 0,
-    "addCheese": false,
-    "addBacon": false,
-    "addGuac": false,
-    "addSteak": false,
-    "addChicken": false
+    "extras": ""
   },
   {
-    "name": "Margherita Pizza",
-    "description": "Classic pizza topped with tomatoes, mozzarella, and basil",
-    "price": 12.99,
+    "name": "Handmade Fire Roasted Tomato & Beef Sauce Spaghetti",
+    "description": "Fire Roasted Tomato Sauce, Fresh Ground Beef, Garlic, Fresh Basil, and Parmesan Cheese",
+    "price": 17.99,
+    "category": "Handmade Pasta",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Fresh Baked Garlic Bread",
+    "description": "",
+    "price": 6.99,
     "category": "Appetizers",
-    "ingredients": [
-      "Tomatoes",
-      "Mozzarella",
-      "Basil",
-      "Pizza Dough"
-    ],
+    "ingredients": [],
     "isVegetarian": true,
     "isVegan": false,
     "isGlutenFree": false,
     "spicyLevel": 0,
-    "addCheese": false,
-    "addBacon": false,
-    "addGuac": false,
-    "addSteak": false,
-    "addChicken": false
+    "extras": "Add Cheese +1.99"
+  },
+  {
+    "name": "White Truffle & Parmesan Fries",
+    "description": "FRESH CUT FRIES DRIZZLED WITH WHITE TRUFFLE OIL AND TOPPED WITH PARMESAN CHEESE",
+    "price": 9.99,
+    "category": "Appetizers",
+    "ingredients": [],
+    "isVegetarian": true,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Fresh Guacamole & Pico Di Gallo",
+    "description": "SERVED WITH HOUSE MADE CORN TORTILLA CHIPS",
+    "price": 11.99,
+    "category": "Appetizers",
+    "ingredients": [],
+    "isVegetarian": true,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Sweet Thai Chicken Bites",
+    "description": "HOUSE MADE CHICKEN BITES TOSSED IN A SWEET THAI CHILI SAUCE WITH SESAME SEEDS",
+    "price": 12.99,
+    "category": "Appetizers",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 1,
+    "extras": ""
+  },
+  {
+    "name": "Chicken Wings 1 LB",
+    "description": "MILD, MEDIUM, HOT, BBQ, HONEY GARLIC, HOT HONEY, SWEET THAI CHILI, BUFFALO, SUICIDE, SALT AND PEPPER",
+    "price": 16.99,
+    "category": "Appetizers",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Chicken or Beef Nachos",
+    "description": "ROASTED BELL PEPPERS, RED ONION, BLACK BEANS, SWEET CORN, JALAPENOS, PICO DI GALLO, CHEDDAR CHEESE, CILANTRO, SOUR CREAM, & CHIPOLE AIOLI",
+    "price": 15.99,
+    "category": "Appetizers",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": "Add Bacon +2.99 \n Add Guacamole +2.99"
   }
 ]

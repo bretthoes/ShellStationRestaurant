@@ -41,3 +41,19 @@
   display: flex ; 
   justify-content: space-between;
 }
+
+.spicy {
+  color: firebrick;
+}
+
+.vegetarian {
+  color: green;
+}
+
+.extras {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: 'Sanchez', serif;
+  color: darkred;
+}

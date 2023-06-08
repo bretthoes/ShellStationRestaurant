@@ -14,11 +14,7 @@ interface MenuItem {
   isVegan: boolean
   isGlutenFree: boolean
   spicyLevel: number
-  addCheese: boolean
-  addBacon: boolean
-  addGuac: boolean
-  addSteak: boolean
-  addChicken: boolean
+  extras: string
 }
 
 interface MenuSection {
@@ -59,11 +55,7 @@ export default function Menu({ menu, MenuSections }: PageProps) {
                     isVegan={menuItem.isVegan}
                     isGlutenFree={menuItem.isGlutenFree}
                     spicyLevel={menuItem.spicyLevel}
-                    addCheese={menuItem.addCheese}
-                    addBacon={menuItem.addBacon}
-                    addGuac={menuItem.addGuac}
-                    addSteak={menuItem.addSteak}
-                    addChicken={menuItem.addChicken}
+                    extras={menuItem.extras}
                   />
                 ))}
             </div>
