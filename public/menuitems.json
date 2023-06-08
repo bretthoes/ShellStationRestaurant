@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Grilled Salmon",
+    "description": "Freshly grilled salmon served with roasted vegetables",
+    "price": 15.99,
+    "ingredients": ["Salmon", "Vegetables", "Spices"],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": true
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza topped with tomatoes, mozzarella, and basil",
+    "price": 12.99,
+    "ingredients": ["Tomatoes", "Mozzarella", "Basil", "Pizza Dough"],
+    "isVegetarian": true,
+    "isVegan": false,
+    "isGlutenFree": false
+  }
+]

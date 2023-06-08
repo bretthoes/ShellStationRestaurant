@@ -15,7 +15,7 @@ export default function Navbar() {
           <NavLink href="/menu" label="Menu" />
         </li>
         <li>
-          <NavLink href="/contact" label="Contact" />
+          <NavLink href="/location" label="Find us" />
         </li>
       </ul>
     </nav>
