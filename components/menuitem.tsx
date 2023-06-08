@@ -34,9 +34,11 @@ export default function MenuItem(
   }: MenuItemProps) {
   return (
     <div className={styles.item}>
-      <h2 className={styles.name}>{name}</h2>
+      <div className={styles.inline}>
+        <p className={styles.price}>{price.toFixed(2)}</p>
+        <h2 className={styles.name}>{name}</h2>
+      </div>
       <p className={styles.description}>{description}</p>
-      <p className={styles.price}>Price: ${price.toFixed(2)}</p>
     </div>
   )
 }
