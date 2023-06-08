@@ -1,4 +1,5 @@
 import React from "react"
+import styles from '../styles/banner.module.css'
 
 interface BannerProps {
   imageUrl: string
@@ -8,7 +9,7 @@ interface BannerProps {
 export default function Banner({ imageUrl, altText }: BannerProps) {
   return (
     <>
-      <div className="banner">
+      <div className={styles.banner}>
         <img src={imageUrl} alt={altText} />
       </div>
     </>

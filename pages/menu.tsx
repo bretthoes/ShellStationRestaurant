@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import menuItemsData from '../public/menuitems.json'
+import styles from '../styles/menu.module.css'
 
 interface MenuItem {
   name: string
@@ -11,6 +11,7 @@ interface MenuItem {
   isVegetarian: boolean
   isVegan: boolean
   isGlutenFree: boolean
+  spicyLevel: number
 }
 
 
@@ -19,21 +20,19 @@ interface PageProps {
 }
 
 export default function Menu({ menu }: PageProps) {
-  const menuItems: MenuItem[] = menu || menuItemsData;
+  const menuItems: MenuItem[] = menu || menuItemsData
+  const decimalPlaces = 2
   return (
     <>
-      <h1>Menu</h1>
-      {menuItems.map((menuItem, index) => (
-        <div key={index}>
-          <h2>{menuItem.name}</h2>
-          <p>{menuItem.description}</p>
-          <p>Price: ${menuItem.price.toFixed(2)}</p>
-          <p>Ingredients: {menuItem.ingredients.join(", ")}</p>
-          <p>Vegetarian: {menuItem.isVegetarian ? "Yes" : "No"}</p>
-          <p>Vegan: {menuItem.isVegan ? "Yes" : "No"}</p>
-          <p>Gluten-Free: {menuItem.isGlutenFree ? "Yes" : "No"}</p>
-        </div>
-      ))}
+      <div className={styles.menu}>
+        {menuItems.map((menuItem, index) => (
+          <div key={index} className={styles.item}>
+            <h2 className={styles.name}>{menuItem.name}</h2>
+            <p className={styles.description}>{menuItem.description}</p>
+            <p className={styles.price}>Price: ${menuItem.price.toFixed(decimalPlaces)}</p>
+          </div>
+        ))}
+      </div>
     </>
   )
 }
