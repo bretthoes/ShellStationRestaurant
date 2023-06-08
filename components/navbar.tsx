@@ -9,10 +9,10 @@ export default function Navbar() {
           <NavLink href="/" label="Home" />
         </li>
         <li>
-          <NavLink href="/about" label="About" />
+          <NavLink href="/menu" label="Menu" />
         </li>
         <li>
-          <NavLink href="/menu" label="Menu" />
+          <NavLink href="/drinks" label="Drinks" />
         </li>
         <li>
           <NavLink href="/location" label="Find us" />
