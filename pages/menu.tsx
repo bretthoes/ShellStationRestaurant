@@ -1,5 +1,6 @@
 import menuItemsData from '../public/menuitems.json'
 import styles from '../styles/menu.module.css'
+import SectionTitle from "../components/sectiontitle";
 
 interface MenuItem {
   name: string
@@ -24,6 +25,7 @@ export default function Menu({ menu }: PageProps) {
   const decimalPlaces = 2
   return (
     <>
+      <SectionTitle title="Appetizers" />
       <div className={styles.menu}>
         {menuItems.map((menuItem, index) => (
           <div key={index} className={styles.item}>
