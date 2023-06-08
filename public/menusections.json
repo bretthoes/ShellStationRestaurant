@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Appetizers",
+    "order": 1
+  },
+  {
+    "name": "Wraps & Sandwiches",
+    "order": 2
+  },
+  {
+    "name": "Homemade Pasta",
+    "order": 3
+  },
+  {
+    "name": "Salads & Bowls",
+    "order": 4
+  },
+  {
+    "name": "Smash Burgers",
+    "order": 5
+  },
+  {
+    "name": "Pizzas",
+    "order": 6
+  },
+  {
+    "name": "Dessert",
+    "order": 7
+  },
+  {
+    "name": "Beer, Wine, & Cocktails",
+    "order": 8
+  }
+]
