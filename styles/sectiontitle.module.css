@@ -1,5 +1,6 @@
-/* TODO replace import below with next/font */
+/* TODO replace imports below with next/font */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
 
 .title {
   font-family: 'Bebas Neue', sans-serif;
@@ -10,4 +11,15 @@
   text-align: center;
   margin: 0;
   margin-top: 16px;
+}
+
+.description {
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 12px;
+  font-family: 'Sanchez', serif;
+  text-transform: uppercase;
 }

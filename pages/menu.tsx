@@ -20,6 +20,7 @@ interface MenuItem {
 interface MenuSection {
   name: string
   order: number
+  description: string
 }
 
 interface PageProps {
@@ -39,7 +40,7 @@ export default function Menu({ menu, MenuSections }: PageProps) {
       <div className={styles.menu}>
         {sections.map((section) => (
           <div key={section.name}>
-            <SectionTitle title={section.name} />
+            <SectionTitle title={section.name} description={section.description} />
             <div className={styles.menu}>
               {menuItems
                 .filter((menuItem) => menuItem.category === section.name)

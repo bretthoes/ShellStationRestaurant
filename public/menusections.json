@@ -1,34 +1,42 @@
 [
   {
     "name": "Appetizers",
+    "description": "",
     "order": 1
   },
   {
     "name": "Wraps & Sandwiches",
+    "description": "",
     "order": 2
   },
   {
     "name": "Handmade Pasta",
+    "description": "",
     "order": 3
   },
   {
     "name": "Salads & Bowls",
+    "description": "",
     "order": 4
   },
   {
     "name": "Smash Burgers",
+    "description": "ON A BRIOCHE BUN WITHLETTUCE, TOMATO, ONION,OUR FAMOUS BURGER SAUCE& A SIDE OF FRIES",
     "order": 5
   },
   {
     "name": "Pizzas",
+    "description": "ALL DINE-IN PIZZAS ARE 12' PERSONAL SIZED PIZZAS MADE TO ORDER IN AN 800 DEGREE STONE OVEN",
     "order": 6
   },
   {
     "name": "Dessert",
+    "description": "",
     "order": 7
   },
   {
-    "name": "Beer, Wine, & Cocktails",
+    "name": "Mains",
+    "description": "",
     "order": 8
   }
 ]
