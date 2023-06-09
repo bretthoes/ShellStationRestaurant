@@ -398,7 +398,7 @@
   {
     "name": "Steak Frites",
     "description": "FLAME GRILLED, FRESH CUT FRIES HOUSE MADE CHIMICHURRI",
-    "price": 41.99,
+    "price": -1,
     "category": "Mains",
     "ingredients": [],
     "isVegetarian": false,
@@ -410,7 +410,7 @@
   {
     "name": "Steak Dinner",
     "description": "",
-    "price": 44.99,
+    "price": -1,
     "category": "Mains",
     "ingredients": [],
     "isVegetarian": false,

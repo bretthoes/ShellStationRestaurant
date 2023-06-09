@@ -35,6 +35,7 @@ export default function Menu({ menu, MenuSections }: PageProps) {
   // Sort menu sections by order
   sections.sort((a, b) => a.order - b.order);
 
+  // TODO add navbar links at top of menu for navigating to sections quickly
   return (
     <>
       <div className={styles.menu}>

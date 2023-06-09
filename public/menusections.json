@@ -30,13 +30,8 @@
     "order": 6
   },
   {
-    "name": "Dessert",
-    "description": "",
-    "order": 7
-  },
-  {
     "name": "Mains",
     "description": "",
-    "order": 8
+    "order": 7
   }
 ]

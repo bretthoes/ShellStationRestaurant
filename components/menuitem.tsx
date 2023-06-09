@@ -37,7 +37,9 @@ export default function MenuItem(
   return (
     <div className={styles.item}>
       <div className={styles.inline}>
-        <p className={styles.price}>{price.toFixed(2)}</p>
+        {price > 0 && (
+          <p className={styles.price}>{price.toFixed(2)}</p>
+        )}
         <h2 className={styles.name}>{name}</h2>
         {isVegetarian && (
           <span className={styles.vegetarian}>
