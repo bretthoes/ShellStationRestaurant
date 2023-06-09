@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 24px;
+}
+
+.address h2,
+.address p {
+  margin: 0;
+}
