@@ -1,3 +1,6 @@
+/* TODO replace import below with next/font */
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
 .link {
   display: inline-block;
   padding: 16px 32px;
@@ -7,6 +10,7 @@
   text-transform: uppercase;
   color: black;
   background-color: rgba(0, 0, 0, 0);
+  font-family: 'Sanchez';
 }
 
 .link:hover {
