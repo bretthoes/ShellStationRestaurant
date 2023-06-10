@@ -4,6 +4,7 @@
     "category": "Beer, Wine & Cocktails",
     "subcategory": "beer",
     "description": "",
+    "order": 1,
     "price": 7.25,
     "options": [
       {
@@ -37,6 +38,7 @@
     "category": "Beer, Wine & Cocktails",
     "subcategory": "beer",
     "description": "",
+    "order": 3,
     "price": 9.50,
     "options": [
       {
@@ -70,12 +72,14 @@
     "category": "Beer, Wine & Cocktails",
     "subcategory": "beer",
     "price": 9.50,
-    "description": "Ask your server"
+    "description": "Ask your server",
+    "order": 5
   },
   {
     "name": "House Red",
     "description": "Woodbridge Cabernet Sauvignon",
     "category": "Beer, Wine & Cocktails",
+    "order": 2,
     "subcategory": "wine",
     "price": -1,
     "options": [
@@ -94,6 +98,7 @@
     "description": "Woodbrige Pinot Grigio",
     "category": "Beer, Wine & Cocktails",
     "subcategory": "wine",
+    "order": 4,
     "price": -1,
     "options": [
       {
@@ -111,6 +116,7 @@
     "description": "L'Orangeriae",
     "category": "Beer, Wine & Cocktails",
     "subcategory": "wine",
+    "order": 6,
     "price": -1,
     "options": [
       {
@@ -125,10 +131,10 @@
   },
   {
     "name": "Well Shot",
-    "description": "L'Orangeriae",
     "category": "Beer, Wine & Cocktails",
     "subcategory": "cocktails",
     "price": 6.75,
+    "order": 7,
     "options": [
       {
         "name": "Luksusowa Vodka",

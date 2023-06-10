@@ -17,6 +17,7 @@ interface Drink {
   category: string
   subcategory: string
   options: Option[]
+  order: number
 }
 
 interface MenuSection {
@@ -36,8 +37,9 @@ export default function Drinks({ drinks, MenuSections }: PageProps) {
   const sections: MenuSection[] = MenuSections || menuSectionsData
   const MENU_CATEGORY_TYPE = 'drinks'
 
-  // Sort menu sections by order
+  // Sort menu sections and drink items by order
   sections.sort((a, b) => a.order - b.order);
+  drinkItems.sort((a, b) => a.order - b.order);
 
   return (
     <>
