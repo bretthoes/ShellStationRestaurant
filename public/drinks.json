@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Domestic Bottle",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "beer",
+    "description": "",
+    "price": 7.25,
+    "options": [
+      {
+        "name": "Molson Canadian",
+        "quantity": "341ml"
+      },
+      {
+        "name": "Sleeman",
+        "quantity": "341ml"
+      },
+      {
+        "name": "Coor's Light",
+        "quantity": "341ml"
+      },
+      {
+        "name": "Bud Light",
+        "quantity": "341ml"
+      },
+      {
+        "name": "Miller Genuine Draft",
+        "quantity": "341ml"
+      },
+      {
+        "name": "Moosehead",
+        "quantity": "341ml"
+      }
+    ]
+  },
+  {
+    "name": "Import",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "beer",
+    "description": "",
+    "price": 9.50,
+    "options": [
+      {
+        "name": "1664 Blanc",
+        "quantity": "473ml"
+      },
+      {
+        "name": "Heineken",
+        "quantity": "473ml"
+      },
+      {
+        "name": "Dab",
+        "quantity": "473ml"
+      },
+      {
+        "name": "Guinness",
+        "quantity": "473ml"
+      },
+      {
+        "name": "Kaiser",
+        "quantity": "473ml"
+      },
+      {
+        "name": "Stella Artois",
+        "quantity": "473ml"
+      }
+    ]
+  },
+  {
+    "name": "On Tap",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "beer",
+    "price": 9.50,
+    "description": "Ask your server"
+  },
+  {
+    "name": "House Red",
+    "description": "Woodbridge Cabernet Sauvignon",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "wine",
+    "price": -1,
+    "options": [
+      {
+        "price": 9.75,
+        "quantity": "6 oz"
+      },
+      {
+        "price": 11,
+        "quantity": "9 oz"
+      }
+    ]
+  },
+  {
+    "name": "House White",
+    "description": "Woodbrige Pinot Grigio",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "wine",
+    "price": -1,
+    "options": [
+      {
+        "price": 9.75,
+        "quantity": "6 oz"
+      },
+      {
+        "price": 11,
+        "quantity": "9 oz"
+      }
+    ]
+  },
+  {
+    "name": "Rosé",
+    "description": "L'Orangeriae",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "wine",
+    "price": -1,
+    "options": [
+      {
+        "price": 9.75,
+        "quantity": "6 oz"
+      },
+      {
+        "price": 11,
+        "quantity": "9 oz"
+      }
+    ]
+  },
+  {
+    "name": "Well Shot",
+    "description": "L'Orangeriae",
+    "category": "Beer, Wine & Cocktails",
+    "subcategory": "cocktails",
+    "price": 6.75,
+    "options": [
+      {
+        "name": "Luksusowa Vodka",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Sauza Silver",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "J.P. Wiser's",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Tanqueray London",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Captain Morgan White",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Bailey's Irish Cream",
+        "quantity": "1 oz"
+      }
+    ]
+  }
+]

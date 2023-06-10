@@ -21,6 +21,7 @@ interface MenuSection {
   name: string
   order: number
   description: string
+  category: string
 }
 
 interface PageProps {
@@ -31,6 +32,7 @@ interface PageProps {
 export default function Menu({ menu, MenuSections }: PageProps) {
   const menuItems: MenuItem[] = menu || menuItemsData
   const sections: MenuSection[] = MenuSections || menuSectionsData;
+  const MENU_CATEGORY_TYPE = "food";
 
   // Sort menu sections by order
   sections.sort((a, b) => a.order - b.order);
@@ -39,7 +41,9 @@ export default function Menu({ menu, MenuSections }: PageProps) {
   return (
     <>
       <div className={styles.menu}>
-        {sections.map((section) => (
+        {sections
+        .filter((menuSection) => menuSection.category === MENU_CATEGORY_TYPE)
+        .map((section) => (
           <div key={section.name}>
             <SectionTitle title={section.name} description={section.description} />
             <div className={styles.menu}>
