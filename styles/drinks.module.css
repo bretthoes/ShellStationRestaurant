@@ -1,0 +1,12 @@
+.drinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-self: center;
+  column-gap: 0;
+  grid-template-rows: max-content;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
