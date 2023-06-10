@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 .item {
   display: flex;
@@ -61,4 +62,16 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+}
+
+.option p {
+  display: inline;
+  padding: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.description {
+  padding-bottom: 8px;
 }

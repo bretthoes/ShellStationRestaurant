@@ -5,6 +5,7 @@ import 'material-icons/iconfont/material-icons.css'
 interface Option {
   name: string
   quantity: number
+  price: number
 }
 
 interface DrinkItemProps {
@@ -37,6 +38,7 @@ export default function MenuItem({
               <div key={index} className={styles.option}>
                 <p className={styles.optionName}>{option.name}</p>
                 <p className={styles.optionQuantity}>{option.quantity}</p>
+                <p className={styles.optionPrice}>{option.price}</p>
               </div>
             ))}
           </div>

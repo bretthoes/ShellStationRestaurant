@@ -7,6 +7,7 @@ import DrinkItem from '../components/drinkitem'
 interface Option {
   name: string
   quantity: number
+  price: number
 }
 
 interface Drink {
