@@ -1,0 +1,10 @@
+.footerlogo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footerlogo img {
+  width: 50%;
+  min-width: 240px;
+}

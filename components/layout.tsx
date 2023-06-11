@@ -2,13 +2,11 @@ import React, { ReactNode } from 'react'
 import Head from 'next/head'
 import Navbar from './navbar'
 import Footer from './footer'
-import Banner from './banner'
-import BannerImage from '../public/BannerImage.jpg'
 
 interface LayoutProps {
   children: ReactNode
 }
- 
+
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
@@ -17,8 +15,7 @@ export default function Layout({ children }: LayoutProps) {
         <meta name="description" content="The Station Restaurant" />
       </Head>
       <Navbar />
-      <Banner imageUrl={BannerImage.src} altText="Banner Image" />
-      <main>{children}</main>
+        <main>{children}</main>
       <Footer />
     </>
   )

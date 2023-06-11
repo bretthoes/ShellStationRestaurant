@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import styles from '../styles/location.module.css'
+import SectionTitle from '../components/sectiontitle'
 
 export default function Contact() {
+  const title = "Where are we?"
+  const description = "Find us inside the Pointe au Baril Station"
   return (
     <>
+      <SectionTitle title={title} description={description} />
       <div className={styles.container}>
         <div className={styles.address}>
           <h2>The Station</h2>

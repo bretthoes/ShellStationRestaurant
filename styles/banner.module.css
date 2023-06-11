@@ -4,6 +4,7 @@
 }
 
 .banner img {
-  width: 100%;
+  width: 600px;
+  margin-bottom: 120px;
   max-width: 1200px;
 }
