@@ -336,7 +336,7 @@
     "extras": ""
   },
   {
-    "name": "12' Margherita Pizza",
+    "name": "12\" Margherita Pizza",
     "description": "TOMATO SAUCE, FRESH MOZZARELLA, BASIL, EXTRA VIRGIN OLIVE OIL OR VEGAN CHEESE",
     "price": 16.99,
     "category": "Pizzas",
@@ -348,7 +348,7 @@
     "extras": ""
   },
   {
-    "name": "12' Canadian Pizza",
+    "name": "12\" Canadian Pizza",
     "description": "BACON, MUSHROOM, & PEPPERONI",
     "price": 16.99,
     "category": "Pizzas",
@@ -360,7 +360,7 @@
     "extras": ""
   },
   {
-    "name": "12' Hawaiian Pizza",
+    "name": "12\" Hawaiian Pizza",
     "description": "BACON, HAM, FRESH PINEAPPLE, RED ONIONS",
     "price": 16.99,
     "category": "Pizzas",
@@ -372,7 +372,7 @@
     "extras": ""
   },
   {
-    "name": "12' Cheese Pizza",
+    "name": "12\" Cheese Pizza",
     "description": "Just Mozzarella or Vegan Cheese",
     "price": 14.99,
     "category": "Pizzas",
@@ -384,7 +384,7 @@
     "extras": ""
   },
   {
-    "name": "12' Pepperoni Pizza",
+    "name": "12\" Pepperoni Pizza",
     "description": "JUST MOZZARELLA & PEPPERONI",
     "price": 16.99,
     "category": "Pizzas",
@@ -448,6 +448,54 @@
     "description": "FLAME GRILLED, CHICKEN, PORK, OR PANEER BELL PEPPERS, ONIONS, HOUSE MADE PITA, TAZIKI, TOMATOES, FRESH OREGANO, & ZA'ATAR",
     "price": 34.99,
     "category": "Mains",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Fresh Baked Pie",
+    "description": "Ask your server for today's selection. Served with vanilla ice cream",
+    "price": 11.99,
+    "category": "Dessert",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Brownie",
+    "description": "A large fudge brownie & vanilla ice cream",
+    "price": 9.99,
+    "category": "Dessert",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Mini Brownie",
+    "description": "A very small fudge brownie & vanilla ice cream",
+    "price": 6.99,
+    "category": "Dessert",
+    "ingredients": [],
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "spicyLevel": 0,
+    "extras": ""
+  },
+  {
+    "name": "Cookies & Ice Cream",
+    "description": "Fresh baked chocolate chip cookies & vanilla ice cream",
+    "price": 6.99,
+    "category": "Dessert",
     "ingredients": [],
     "isVegetarian": false,
     "isVegan": false,

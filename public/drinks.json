@@ -161,5 +161,76 @@
         "quantity": "1 oz"
       }
     ]
+  },
+  {
+    "name": "Fountain Pop",
+    "category": "Non alcoholic",
+    "subcategory": "",
+    "price": 2.99,
+    "order": 8,
+    "options": [
+      {
+        "name": "Pepsi",
+        "quantity": ""
+      },
+      {
+        "name": "7-Up",
+        "quantity": ""
+      },
+      {
+        "name": "Diet Pepsi",
+        "quantity": ""
+      },
+      {
+        "name": "Mug",
+        "quantity": ""
+      },
+      {
+        "name": "Brisk",
+        "quantity": ""
+      }
+    ]
+  },
+  {
+    "name": "Hot Beverages",
+    "category": "Non alcoholic",
+    "subcategory": "",
+    "price": 2.99,
+    "order": 9,
+    "options": [
+      {
+        "name": "Coffee",
+        "quantity": ""
+      },
+      {
+        "name": "Tea",
+        "quantity": ""
+      },
+      {
+        "name": "Hot Chocolate",
+        "quantity": ""
+      }
+    ]
+  },
+  {
+    "name": "Juice",
+    "category": "Non alcoholic",
+    "subcategory": "",
+    "price": 3.99,
+    "order": 10,
+    "options": [
+      {
+        "name": "Orange",
+        "quantity": ""
+      },
+      {
+        "name": "Apple",
+        "quantity": ""
+      },
+      {
+        "name": "Grapefruit",
+        "quantity": ""
+      }
+    ]
   }
 ]

@@ -42,9 +42,21 @@
     "order": 7
   },
   {
+    "name": "Dessert",
+    "description": "Fresh baked, served warm",
+    "category": "food",
+    "order": 8
+  },
+  {
     "name": "Beer, Wine & Cocktails",
     "description": "+HST",
     "category": "drinks",
-    "order": 8
+    "order": 9
+  },
+  {
+    "name": "Non alcoholic",
+    "description": "",
+    "category": "drinks",
+    "order": 9
   }
 ]
