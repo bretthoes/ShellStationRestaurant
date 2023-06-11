@@ -21,7 +21,6 @@ export default function MenuItem({
   name,
   description,
   price,
-  subcategory,
   options,
 }: DrinkItemProps) {
   return (

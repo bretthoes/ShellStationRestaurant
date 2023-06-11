@@ -10,3 +10,8 @@
   max-width: 1000px;
   margin: auto;
 }
+@media (max-width: 700px) {
+  .drinks {
+    grid-template-columns: 1fr;
+  }
+}
