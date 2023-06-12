@@ -12,11 +12,11 @@
 }
 
 .name {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 28px;
   border-bottom: 3px solid black;
   margin: 0;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite';
   font-weight: normal;
 }
 
